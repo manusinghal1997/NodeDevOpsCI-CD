@@ -22,7 +22,7 @@ app.get("/admin", isloggedin,isAdmin, admin);
 
 
 app.get("/",(req,res) =>{
-    return res.send("home page");
+    return res.send("home add page");
 });
 app.get("/login",(req,res) =>{
     return res.send("login page");
